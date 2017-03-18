@@ -1,10 +1,10 @@
 {
   "USER": {
-    "INSUFFICIENTBALANCE": "Fonds inssufisant pour ce paiement",
+    "INSUFFICIENTBALANCE": "Fonds insufisants pour ce paiement",
     "EMAILALREADYEXIST": "L'adresse email existe déjà",
     "NOTFOUND": "L'utilisateur n'existe pas"
   },
   "FORBIDDEN": "Vous n'êtes pas autorisé à effectuer cette action, ou à accéder à cette ressource.",
   "MISSINGPARAMETERS": "Des paramètres sont manquants.",
-  "INVALIDCARD": "Les données de la carte sont invalide."
+  "INVALIDCARD": "Les données de la carte sont invalides."
 }

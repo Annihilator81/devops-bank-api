@@ -4,21 +4,15 @@ module.exports = {
   up: function (queryInterface, Sequelize) {
     return queryInterface.bulkInsert('User', [
       {
-        email: 'alexandre.marty@ynov.com',
-        firstName: 'Alexandre',
-        lastName: 'Marty',
+        email: 'pierrehenri.debris@ynov.com',
+        firstName: 'Pierre-Henri',
+        lastName: 'Debris',
         balance: 300
       },
       {
-        email: 'remy.jallan@ynov.com',
-        firstName: 'Rémy',
-        lastName: 'Jallan',
-        balance: 300
-      },
-      {
-        email: 'quentin.rubini@ynov.com',
-        firstName: 'Quentin',
-        lastName: 'Rubini',
+        email: 'robin.lavayre@ynov.com',
+        firstName: 'Robin',
+        lastName: 'Lavayre',
         balance: 300
       },
       {
