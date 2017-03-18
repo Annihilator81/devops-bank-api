@@ -1,5 +1,4 @@
 FROM debian:jessie
-MAINTAINER Rémy Jallan "jallanremy@gmail.com"
 
 USER root
 

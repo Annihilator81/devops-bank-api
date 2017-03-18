@@ -6,7 +6,6 @@ services:
    image: mysql:5.7
    volumes:
     - /var/mysql:/var/lib/mysql
-    #- /Users/remy/Desktop/DevOps/mysql:/var/lib/mys
    environment:
     MYSQL_ROOT_PASSWORD: root
     MYSQL_DATABASE: bank
@@ -20,7 +19,7 @@ services:
    links:
     - db:mysql
    container_name: api-test
-   image: devops/bank-api
+   image: devops/devops-bank-api
    ports:
     - "4000:4000"
   node-api-test:
@@ -31,4 +30,4 @@ services:
     - db:mysql
     - node-api:api
    container_name: test-unitaire
-   image: devops/bank-api-test
+   image: devops/devops-bank-api-test

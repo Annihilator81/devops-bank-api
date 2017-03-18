@@ -6,7 +6,6 @@ services:
    image: mysql:5.7
    volumes:
     - /var/mysql:/var/lib/mysql
-    #- /Users/remy/Desktop/DevOps/mysql:/var/lib/mys
    restart: on-failure
    environment:
     MYSQL_ROOT_PASSWORD: root
@@ -21,7 +20,7 @@ services:
    links:
     - db:mysql
    container_name: api
-   image: devops/bank-api
+   image: devops/devops-bank-api
    ports:
     - "4000:4000"
    restart: on-failure
