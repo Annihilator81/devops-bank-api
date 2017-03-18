@@ -17,7 +17,7 @@ describe('User unit test', function () {
                 server
                     .post('user/test')
                     .end(function (err, res) {
-                        testUser = res.body.data;
+                        testUser = res;
                         invoiceRoute = 'user/' + testUser.id +'/invoice';
                         done();
                     });
